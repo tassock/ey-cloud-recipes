@@ -17,7 +17,7 @@
 # require_recipe "sphinx"
 
 #uncomment to turn on memcached
-# require_recipe "memcached"
+require_recipe "memcached"
 
 #uncomment to run the authorized_keys recipe
 #require_recipe "authorized_keys"
@@ -44,7 +44,7 @@
 #require_recipe "resque"
 
 #uncomment to run the redis recipe
-#require_recipe "redis"
+require_recipe "redis"
 
 #require_recipe "logrotate"
 #
